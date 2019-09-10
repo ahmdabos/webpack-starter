@@ -1,5 +1,33 @@
-$body-color: blue;
+@import "sass/variables-site/variables-site";
+@import "sass/mixins/mixins-master";
 
-body {
-  color: $body-color;
-}
+/* Normalize */
+
+@import "sass/normalize";
+
+/* Typography */
+
+@import "sass/typography/typography";
+
+/* Elements */
+
+@import "sass/elements/elements";
+
+/* Forms */
+
+@import "sass/forms/forms";
+
+/* Navigation */
+
+@import "sass/navigation/navigation";
+
+/* Layout */
+
+@import "sass/layout/layout";
+
+/* Content */
+
+@import "sass/site/site";
+
+
+
